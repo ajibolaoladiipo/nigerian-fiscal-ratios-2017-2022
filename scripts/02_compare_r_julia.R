@@ -1,0 +1,15 @@
+#!/usr/bin/env Rscript
+args <- commandArgs(trailingOnly=TRUE)
+root <- normalizePath(if(length(args)) args[[1]] else ".", mustWork=TRUE)
+r <- read.csv(file.path(root,"results","PAPER_4_2017_2022_SHAPLEY_DECOMPOSITION.csv"),check.names=FALSE)
+j <- read.csv(file.path(root,"results","PAPER_4_PHASE_VIIB_JULIA_SHAPLEY.csv"),check.names=FALSE)
+z <- merge(r,j,by=c("state","start_year","end_year"),suffixes=c("_r","_j"),all=TRUE)
+vars <- c("domestic_stock_contribution","external_usd_stock_contribution","valuation_contribution","revenue_denominator_contribution","actual_ratio_change","reconstructed_ratio_change")
+for(v in vars) z[[paste0(v,"_absolute_difference")]] <- abs(z[[paste0(v,"_r")]]-z[[paste0(v,"_j")]])
+z$maximum_absolute_difference <- do.call(pmax,c(z[paste0(vars,"_absolute_difference")],list(na.rm=TRUE)))
+z$comparison_pass <- !is.na(z$maximum_absolute_difference) & z$maximum_absolute_difference <= 1e-10
+write.csv(z,file.path(root,"results","PAPER_4_PHASE_VIIB_NUMERICAL_DISCREPANCY_LOG.csv"),row.names=FALSE)
+stopifnot(nrow(z)==180,all(z$comparison_pass))
+lines <- c("# Phase VII-B R--Julia verification report","",sprintf("Both implementations independently computed %d state-transition Shapley records from the approved component panel.",nrow(z)),sprintf("The maximum absolute difference across the six compared quantities was %.17g.",max(z$maximum_absolute_difference)),"All comparisons passed the pre-specified 1e-10 tolerance.","","Julia reads the approved component panel, not R Shapley contribution columns. Agreement verifies numerical implementation only; it does not validate source truth or fiscal constructs.")
+writeLines(lines,file.path(root,"results","PAPER_4_PHASE_VIIB_R_JULIA_VERIFICATION_REPORT.md"))
+cat("R--Julia verification passed for 180 transitions.\n")

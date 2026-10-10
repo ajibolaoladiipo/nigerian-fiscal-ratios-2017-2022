@@ -1,0 +1,227 @@
+[
+  {
+    "file": ".gitignore",
+    "sha256": "418b8de4bca5d9e2eb70fad77101a368d6b217a5e31df9d5d206924cc06ad1de",
+    "bytes": 235
+  },
+  {
+    "file": "CITATION.cff",
+    "sha256": "aacbbb422ba91a345f8dc7a5a12044f6d4a35362096f2d3ae4b7bbdc1ddc8437",
+    "bytes": 505
+  },
+  {
+    "file": "DATA_ACCESS.md",
+    "sha256": "07785fe85f2fb455b8390e342dd40442f7576f734581bd816f12858933084ea0",
+    "bytes": 996
+  },
+  {
+    "file": "LICENSE",
+    "sha256": "ffb9795f53b8d97e5d6c6f9911bcfe298de12e89001786e45bb27ae65ebfd29d",
+    "bytes": 1073
+  },
+  {
+    "file": "README.md",
+    "sha256": "f30f03d058a308386b169d7080236b558fc28db0b941d7cdf67475b75e447528",
+    "bytes": 3407
+  },
+  {
+    "file": "RELEASE_STATUS.md",
+    "sha256": "6a365c489add5b4bf5864cfe82985ffe84cd2a280dcd358b43c5e8ef09adf987",
+    "bytes": 790
+  },
+  {
+    "file": "REPRODUCIBILITY.md",
+    "sha256": "0af62add19134c5ebe4a86689c247c59b50c5282e8f464b156cf37f3b6febe41",
+    "bytes": 1246
+  },
+  {
+    "file": "data/derived/PAPER_4_2017_2022_APPROVED_FISCAL_PANEL.csv",
+    "sha256": "55756533376a7f3b1a6692e676266f67367baf4ac67b38135790da4ed1e0f446",
+    "bytes": 144206
+  },
+  {
+    "file": "data/derived/PAPER_4_2017_2022_FISCAL_INDICATORS.csv",
+    "sha256": "9f493a1c3078b730415cc46330ea05871d37696cbd8077e80eb86fe3adfb7495",
+    "bytes": 164512
+  },
+  {
+    "file": "data/documentation/PAPER_4_2017_2022_REPORTING_DATE_AND_VALUATION_REGISTER.csv",
+    "sha256": "b606d4f6eb2c5b45a727e6a64780e854d5ef460c06ad7b79d39ebc7cf09f38da",
+    "bytes": 1221
+  },
+  {
+    "file": "data/documentation/PAPER_4_2017_2022_SOURCE_CHECKSUM_MANIFEST.csv",
+    "sha256": "3ece5bcac3c53aa3cc76fc14d09c48e2d44ecf0de329c2d4a59e62d5ddd6b869",
+    "bytes": 2185
+  },
+  {
+    "file": "data/documentation/PAPER_4_2017_2022_SOURCE_FEASIBILITY_MATRIX.csv",
+    "sha256": "73e5d0cfba9392ad9e30eaa50d969b6e349730c87f7ea9bb7f38483c9696eb82",
+    "bytes": 2458
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIA2_IGR_SOURCE_CONCORDANCE.csv",
+    "sha256": "4793809bca310bc5b7b8cd9fe1cca133b11690a804307f0d6477e3704f7450bc",
+    "bytes": 24620
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIA2_VERIFIED_ANNUAL_NET_FAAC.csv",
+    "sha256": "352a00349b5cb3307d9875c0d94bb2d06da98883f741ef2a489a6a3a214e951e",
+    "bytes": 14456
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIA3_DMO_ARCHIVE_AND_CHECKSUM_MANIFEST.csv",
+    "sha256": "a5926bf4bff5348211438d114f5f19068092aaac71c246bad9f0361f22f2790f",
+    "bytes": 5010
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIA3_DMO_COMPONENT_CONCORDANCE.csv",
+    "sha256": "b0266d31fa6fd6cf841bb54ae3b3edc42cf9914ce961b18f4ace0842f73bfef0",
+    "bytes": 128362
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIA3_DMO_REPORTING_DATE_EXCEPTIONS.csv",
+    "sha256": "a8d85beda9026349311361b7a3219df16c65bb40d9ee7e510da951882211397c",
+    "bytes": 8893
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIA3_DMO_SOURCE_STATUS_REGISTER.csv",
+    "sha256": "389926de30a1c9421a3346e091cb1344ec50c3262d12022cf9a885e67fffdcf6",
+    "bytes": 972
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_ANALYTICAL_ELIGIBILITY_REPORT.md",
+    "sha256": "0b6ce8b069e946644d6973cf7e94bbd14daf778f4e067c42e6857bae2856b71e",
+    "bytes": 246
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_FINAL_EMPIRICAL_GATE_DECISION.md",
+    "sha256": "446ba6a5123fffdb4e2bd6bc4d5137489896b0be337bcf75183b9a7abf7ba5bf",
+    "bytes": 1505
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_LOCKED_ANALYSIS_PROTOCOL.md",
+    "sha256": "ee63d98ad892568cc61a15469a772759176aa0e2ff85c2c8a8047e5d66dd8e40",
+    "bytes": 4266
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_OLD_VERSUS_NEW_EVIDENCE_REPORT.md",
+    "sha256": "1e2476b2dee304cb163c2ae6a31d4ceabf1a78720962f6b4ecabb8af80e71913",
+    "bytes": 1277
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_PBF_EDITORIAL_READINESS_ASSESSMENT.md",
+    "sha256": "87c3f6177cd29683c5b9ad063a445e43b8d486d0e52f370c75d01d546cf6cbee",
+    "bytes": 1370
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_R_JULIA_VERIFICATION_REPORT.md",
+    "sha256": "2c2cce8c0678b0d34a61ef82eb0be80aae18ea20cb7d8fd9a689492c28632911",
+    "bytes": 497
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_SIX_YEAR_CONTRIBUTION_ASSESSMENT.md",
+    "sha256": "7477ae35ef238b676beefa38c77955463ddc20dbcd7d09d0a8c30681bab49a7f",
+    "bytes": 2831
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_SOURCE_AND_VARIABLE_DICTIONARY.md",
+    "sha256": "19bef9528a4d75a1b53cddeb319245447c4896761935ef5ca6fac4d6399ca8ba",
+    "bytes": 456
+  },
+  {
+    "file": "data/documentation/PAPER_4_PHASE_VIIB_SOURCE_TO_RESULT_AUDIT.md",
+    "sha256": "120a82b93d7d28e101e5828472cd807c0228ba75dc614bfcca99e85ee0667e32",
+    "bytes": 316
+  },
+  {
+    "file": "julia/01_reproduce_julia_verification.jl",
+    "sha256": "1cc6102224ed41d7ffd609cea1d1370682ad7d68ee582c944086a9d37929fd67",
+    "bytes": 3240
+  },
+  {
+    "file": "logs/Julia_version.txt",
+    "sha256": "04240e3266a6a8feac8048b9d913ffbe14505ffcec1e738418179c1250bd98b3",
+    "bytes": 21
+  },
+  {
+    "file": "logs/R_sessionInfo.txt",
+    "sha256": "1afcb0ce4e995055133660a57ac1c22dfead69e5ab6b4521afb8258da815d6b5",
+    "bytes": 587
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_APPROVED_FISCAL_PANEL.csv",
+    "sha256": "55756533376a7f3b1a6692e676266f67367baf4ac67b38135790da4ed1e0f446",
+    "bytes": 144206
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_COMPONENT_DEPENDENCE.csv",
+    "sha256": "d4548734ffc6cec19997d7c1bb49d73572b5c38fe43f5c518b8d49b5bece4bbe",
+    "bytes": 6783
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_DESCRIPTIVE_RESULTS.csv",
+    "sha256": "6730fc4c437f6e8f25095f3f7bc51cdea89a8429ea2f90ec6f31ab08d81d8e0a",
+    "bytes": 3850
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_FISCAL_INDICATORS.csv",
+    "sha256": "8f0594d8b0caa31ef8d7676c350bdddb33069a5039258fc145b054e70201ae30",
+    "bytes": 164658
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_RANKING_DIAGNOSTICS.csv",
+    "sha256": "45e2db1d650c6bfd3bc38af0e5391cab2eb9f1104c96faa8ee6eb35ed5160346",
+    "bytes": 129866
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_REPORTING_DATE_SENSITIVITY.csv",
+    "sha256": "5218bca644bd7abef4dcf4f45c06282802955da37f277b6e2983d600ad6c4ece",
+    "bytes": 1356
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_SHAPLEY_DECOMPOSITION.csv",
+    "sha256": "fe09f2c0c05ce1a79b5051fe600cbb2c16037b0ded5cf6f1638874c6f0760a0d",
+    "bytes": 30640
+  },
+  {
+    "file": "results/PAPER_4_2017_2022_VALUATION_SENSITIVITY.csv",
+    "sha256": "7f8a3ba513ce3213cff0242a88f47be62c50569d5b9d93869bd0eac20357a2ff",
+    "bytes": 72713
+  },
+  {
+    "file": "results/PAPER_4_PHASE_VIIB_ANALYTICAL_ELIGIBILITY_REPORT.md",
+    "sha256": "0b6ce8b069e946644d6973cf7e94bbd14daf778f4e067c42e6857bae2856b71e",
+    "bytes": 246
+  },
+  {
+    "file": "results/PAPER_4_PHASE_VIIB_SOURCE_AND_VARIABLE_DICTIONARY.md",
+    "sha256": "19bef9528a4d75a1b53cddeb319245447c4896761935ef5ca6fac4d6399ca8ba",
+    "bytes": 456
+  },
+  {
+    "file": "results/PAPER_4_PHASE_VIIB_SOURCE_TO_RESULT_AUDIT.md",
+    "sha256": "120a82b93d7d28e101e5828472cd807c0228ba75dc614bfcca99e85ee0667e32",
+    "bytes": 316
+  },
+  {
+    "file": "results/phase_viib_outputs/R_sessionInfo.txt",
+    "sha256": "1afcb0ce4e995055133660a57ac1c22dfead69e5ab6b4521afb8258da815d6b5",
+    "bytes": 587
+  },
+  {
+    "file": "scripts/00_refresh_release_manifest.py",
+    "sha256": "03107d57cfa0a9a2f3d5b3fca3c409efa53f64a082ec9b50977fa16fb4878d5f",
+    "bytes": 672
+  },
+  {
+    "file": "scripts/01_reproduce_r_analysis.R",
+    "sha256": "f7497c605e4d94829579329ab1b0fa5031f9281bfe8f11120dae531e3acf158f",
+    "bytes": 9958
+  },
+  {
+    "file": "scripts/02_compare_r_julia.R",
+    "sha256": "9802a875943c1bb759787c4b2254bfc490e77cb4da2d29ef7ed576ebcfe7dc32",
+    "bytes": 1792
+  }
+]

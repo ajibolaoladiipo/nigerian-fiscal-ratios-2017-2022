@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use these replication materials, please cite the associated article when published."
+title: "Nigerian state fiscal-ratio replication materials, 2017–2022"
+version: "0.1.0"
+date-released: 2026-10-10
+authors:
+  - family-names: "Oladiipo"
+    given-names: "Ajibola"
+abstract: "Code, derived analytical data, and provenance documentation for a source-audited descriptive analysis of Nigerian state fiscal ratios."
+license: "MIT"
+repository-code: "PENDING_PUBLIC_DEPOSIT"

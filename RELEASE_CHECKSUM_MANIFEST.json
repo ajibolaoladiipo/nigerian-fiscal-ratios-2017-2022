@@ -270,6 +270,16 @@
     "bytes": 44501
   },
   {
+    "file": "results/PAPER_4_PHASE_VIIB_NUMERICAL_DISCREPANCY_LOG.csv",
+    "sha256": "195d78b6c45053664e2181e7e5fdd09a85234df70067e4ce77c06d0c2c144cae",
+    "bytes": 82110
+  },
+  {
+    "file": "results/PAPER_4_PHASE_VIIB_R_JULIA_VERIFICATION_REPORT.md",
+    "sha256": "a9381eb95714089b4d17728e52532dc1b405451f9d6e93a2fd4a495d6f9d7c64",
+    "bytes": 498
+  },
+  {
     "file": "results/PAPER_4_PHASE_VIIB_SOURCE_AND_VARIABLE_DICTIONARY.md",
     "sha256": "19bef9528a4d75a1b53cddeb319245447c4896761935ef5ca6fac4d6399ca8ba",
     "bytes": 456

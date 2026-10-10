@@ -135,6 +135,26 @@
     "bytes": 316
   },
   {
+    "file": "figures/figure_1_rank_persistence.pdf",
+    "sha256": "3d98903520dae82f6da401942bab9f2f97606c88a78fd45445796f25f29cc51b",
+    "bytes": 6309
+  },
+  {
+    "file": "figures/figure_1_rank_persistence.png",
+    "sha256": "c37d3dc65e0743ba769a6eb7aeead213bc4b8720e587f8fb69e35edf34b21f05",
+    "bytes": 171948
+  },
+  {
+    "file": "figures/figure_2_shapley_signed_contributions.pdf",
+    "sha256": "f3eee5b2eb37016f21b0689416b71dbdbee7cef13dabc3a6de1e6ee93bd622a5",
+    "bytes": 4779
+  },
+  {
+    "file": "figures/figure_2_shapley_signed_contributions.png",
+    "sha256": "209ec91cc5bfcd15752d6fa4edbe43a8371e4867803a6b8fda41d76f914e8363",
+    "bytes": 95146
+  },
+  {
     "file": "julia/01_reproduce_julia_verification.jl",
     "sha256": "1cc6102224ed41d7ffd609cea1d1370682ad7d68ee582c944086a9d37929fd67",
     "bytes": 3240

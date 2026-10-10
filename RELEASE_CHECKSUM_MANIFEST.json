@@ -260,26 +260,6 @@
     "bytes": 246
   },
   {
-    "file": "results/PAPER_4_PHASE_VIIB_JULIA_SHAPLEY.csv",
-    "sha256": "7197d7bd4dc931055cf991451c3ae5ea88e7e79a05efd784417a91cecc739682",
-    "bytes": 29482
-  },
-  {
-    "file": "results/PAPER_4_PHASE_VIIB_JULIA_VALUATION.csv",
-    "sha256": "9636243d03ce706f705777bd5ed9230390256284212062dad3587da53394423f",
-    "bytes": 44501
-  },
-  {
-    "file": "results/PAPER_4_PHASE_VIIB_NUMERICAL_DISCREPANCY_LOG.csv",
-    "sha256": "195d78b6c45053664e2181e7e5fdd09a85234df70067e4ce77c06d0c2c144cae",
-    "bytes": 82110
-  },
-  {
-    "file": "results/PAPER_4_PHASE_VIIB_R_JULIA_VERIFICATION_REPORT.md",
-    "sha256": "a9381eb95714089b4d17728e52532dc1b405451f9d6e93a2fd4a495d6f9d7c64",
-    "bytes": 498
-  },
-  {
     "file": "results/PAPER_4_PHASE_VIIB_SOURCE_AND_VARIABLE_DICTIONARY.md",
     "sha256": "19bef9528a4d75a1b53cddeb319245447c4896761935ef5ca6fac4d6399ca8ba",
     "bytes": 456
@@ -295,14 +275,9 @@
     "bytes": 82110
   },
   {
-    "file": "results/phase_viib_outputs/R_sessionInfo.txt",
-    "sha256": "1afcb0ce4e995055133660a57ac1c22dfead69e5ab6b4521afb8258da815d6b5",
-    "bytes": 587
-  },
-  {
     "file": "scripts/00_refresh_release_manifest.py",
-    "sha256": "03107d57cfa0a9a2f3d5b3fca3c409efa53f64a082ec9b50977fa16fb4878d5f",
-    "bytes": 672
+    "sha256": "2ba8653c0331a768c8b516cb0d6af33a5d030854eb74415635e5738c4fa77618",
+    "bytes": 1209
   },
   {
     "file": "scripts/01_reproduce_r_analysis.R",

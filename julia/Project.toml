@@ -1,0 +1,6 @@
+name = "Paper4FiscalRatioReplication"
+uuid = "ec6cdb5c-3997-4fa4-b00e-2d1199f11122"
+version = "0.1.0"
+
+[compat]
+julia = "1.11.2"

@@ -1,13 +1,23 @@
 [
   {
+    "file": ".github/workflows/reproducibility.yml",
+    "sha256": "5610fe59fcc0e2acc37ce61f978a62ca6096ec92525754a59612c4b4aadd613e",
+    "bytes": 1471
+  },
+  {
     "file": ".gitignore",
     "sha256": "418b8de4bca5d9e2eb70fad77101a368d6b217a5e31df9d5d206924cc06ad1de",
     "bytes": 235
   },
   {
+    "file": "CHANGELOG.md",
+    "sha256": "2ef7bdf92df205805e5b4be1d80452248023f2c8020825724d7659a862ba6b69",
+    "bytes": 222
+  },
+  {
     "file": "CITATION.cff",
-    "sha256": "aacbbb422ba91a345f8dc7a5a12044f6d4a35362096f2d3ae4b7bbdc1ddc8437",
-    "bytes": 505
+    "sha256": "4aecc217ffb50ad49de47f9b679358ac0c23ef4661ceea2d1c98991304f9be3b",
+    "bytes": 581
   },
   {
     "file": "DATA_ACCESS.md",
@@ -15,9 +25,14 @@
     "bytes": 996
   },
   {
+    "file": "DATA_RIGHTS_ASSESSMENT.md",
+    "sha256": "fff196433ec5364db589305bbdaaeeb95a639e2feb58b44b39cc0144d3719a20",
+    "bytes": 1625
+  },
+  {
     "file": "LICENSE",
-    "sha256": "ffb9795f53b8d97e5d6c6f9911bcfe298de12e89001786e45bb27ae65ebfd29d",
-    "bytes": 1073
+    "sha256": "69098b4866fbd406fb0d768f7de2017bb22d8eb1f678bb923d7a9a56c7dd3015",
+    "bytes": 1361
   },
   {
     "file": "README.md",
@@ -25,9 +40,19 @@
     "bytes": 3407
   },
   {
+    "file": "RELEASE_NOTES.md",
+    "sha256": "d2414a06491b75e4aa0d3a5de257d64faf53351a4c60a30e2ac0ceee8a833b21",
+    "bytes": 881
+  },
+  {
     "file": "RELEASE_STATUS.md",
-    "sha256": "6a365c489add5b4bf5864cfe82985ffe84cd2a280dcd358b43c5e8ef09adf987",
-    "bytes": 790
+    "sha256": "a515ea3977b23987317feae75c64279ae0a78b96c07a7776a7ebb63bf188ab51",
+    "bytes": 848
+  },
+  {
+    "file": "REPOSITORY_SECURITY_AND_CONFIDENTIALITY_AUDIT.md",
+    "sha256": "ba8fa17fe2336745726b942de959468176928ac8f029c7a006c8e5e03e78b869",
+    "bytes": 1255
   },
   {
     "file": "REPRODUCIBILITY.md",
@@ -160,6 +185,16 @@
     "bytes": 3240
   },
   {
+    "file": "julia/ENVIRONMENT.md",
+    "sha256": "3d8230fabba77059189af537b0ce66b8cde2d00ff82866846575e7c0b69209a4",
+    "bytes": 679
+  },
+  {
+    "file": "julia/Project.toml",
+    "sha256": "4976db6ef2427127b9c1d6871f66d6615cc37857e6318e4bcbc36c1b58105d3f",
+    "bytes": 129
+  },
+  {
     "file": "logs/Julia_version.txt",
     "sha256": "04240e3266a6a8feac8048b9d913ffbe14505ffcec1e738418179c1250bd98b3",
     "bytes": 21
@@ -210,9 +245,29 @@
     "bytes": 72713
   },
   {
+    "file": "results/PAPER_4_FRESH_JULIA_RELEASE_VERIFICATION.md",
+    "sha256": "a9381eb95714089b4d17728e52532dc1b405451f9d6e93a2fd4a495d6f9d7c64",
+    "bytes": 498
+  },
+  {
+    "file": "results/PAPER_4_JULIA_ENVIRONMENT_LOCK.md",
+    "sha256": "bd8b20f35897a6a34f208143b8ef73f5ba3bcb7f3d2237e850702ed81c00f38a",
+    "bytes": 1002
+  },
+  {
     "file": "results/PAPER_4_PHASE_VIIB_ANALYTICAL_ELIGIBILITY_REPORT.md",
     "sha256": "0b6ce8b069e946644d6973cf7e94bbd14daf778f4e067c42e6857bae2856b71e",
     "bytes": 246
+  },
+  {
+    "file": "results/PAPER_4_PHASE_VIIB_JULIA_SHAPLEY.csv",
+    "sha256": "7197d7bd4dc931055cf991451c3ae5ea88e7e79a05efd784417a91cecc739682",
+    "bytes": 29482
+  },
+  {
+    "file": "results/PAPER_4_PHASE_VIIB_JULIA_VALUATION.csv",
+    "sha256": "9636243d03ce706f705777bd5ed9230390256284212062dad3587da53394423f",
+    "bytes": 44501
   },
   {
     "file": "results/PAPER_4_PHASE_VIIB_SOURCE_AND_VARIABLE_DICTIONARY.md",
@@ -223,6 +278,11 @@
     "file": "results/PAPER_4_PHASE_VIIB_SOURCE_TO_RESULT_AUDIT.md",
     "sha256": "120a82b93d7d28e101e5828472cd807c0228ba75dc614bfcca99e85ee0667e32",
     "bytes": 316
+  },
+  {
+    "file": "results/PAPER_4_R_JULIA_RELEASE_COMPARISON.csv",
+    "sha256": "195d78b6c45053664e2181e7e5fdd09a85234df70067e4ce77c06d0c2c144cae",
+    "bytes": 82110
   },
   {
     "file": "results/phase_viib_outputs/R_sessionInfo.txt",

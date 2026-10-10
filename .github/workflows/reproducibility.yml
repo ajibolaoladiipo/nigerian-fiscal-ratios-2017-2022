@@ -1,0 +1,40 @@
+name: reproducibility
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.11.2'
+      - name: Verify the release manifest
+        run: |
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('.')
+          records = json.loads((root / 'RELEASE_CHECKSUM_MANIFEST.json').read_text())
+          bad = [x['file'] for x in records if not (root / x['file']).is_file() or hashlib.sha256((root / x['file']).read_bytes()).hexdigest() != x['sha256']]
+          assert not bad, 'Checksum failures: ' + ', '.join(bad)
+          print(f'Validated {len(records)} release files.')
+          PY
+      - name: Reproduce R analysis
+        run: Rscript scripts/01_reproduce_r_analysis.R .
+      - name: Independently reproduce Julia calculations
+        run: julia --project=julia julia/01_reproduce_julia_verification.jl .
+      - name: Compare R and Julia results
+        run: Rscript scripts/02_compare_r_julia.R .
+      - name: Publish non-sensitive verification log
+        uses: actions/upload-artifact@v4
+        with:
+          name: reproducibility-logs
+          path: |
+            results/PAPER_4_PHASE_VIIB_R_JULIA_VERIFICATION_REPORT.md
+            results/PAPER_4_PHASE_VIIB_NUMERICAL_DISCREPANCY_LOG.csv

@@ -7,5 +7,5 @@ authors:
   - family-names: "Oladiipo"
     given-names: "Ajibola"
 abstract: "Code, derived analytical data, and provenance documentation for a source-audited descriptive analysis of Nigerian state fiscal ratios."
-license: "MIT"
+license: "MIT (code and author-created documentation only; see DATA_RIGHTS_ASSESSMENT.md)"
 repository-code: "PENDING_PUBLIC_DEPOSIT"
